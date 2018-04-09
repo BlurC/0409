@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>offcn_idle_sys</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectbase</servlet-name>
+    <servlet-class>com.offcn.controller.selectbase</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteda</servlet-name>
+    <servlet-class>com.offcn.controller.deleteda</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mohuselect</servlet-name>
+    <servlet-class>mohuselect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatems</servlet-name>
+    <servlet-class>com.offcn.controller.updatems</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>checkpwd</servlet-name>
+    <servlet-class>com.offcn.controller.checkpwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatepwd</servlet-name>
+    <servlet-class>com.offcn.controller.updatepwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userselect</servlet-name>
+    <servlet-class>com.offcn.controller.userselect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ljfanzhuan</servlet-name>
+    <servlet-class>com.offcn.controller.ljfanzhuan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>usermohu</servlet-name>
+    <servlet-class>com.offcn.userselect1.usermohu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>shengfenrenshu</servlet-name>
+    <servlet-class>com.offcn.userselect1.shengfenrenshu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addkeyword</servlet-name>
+    <servlet-class>com.offcn.keyw.addkeyword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deletekeyword</servlet-name>
+    <servlet-class>com.offcn.keyw.deletekeyword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>qdServlet</servlet-name>
+    <servlet-class>com.offcn.qianduan.qdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Xqservlet</servlet-name>
+    <servlet-class>com.offcn.qianduan.Xqservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginserverlet_q</servlet-name>
+    <servlet-class>com.offcn.qianduan.loginserverlet_q</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>exitseleverlet</servlet-name>
+    <servlet-class>com.offcn.qianduan.exitseleverlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>downServlet</servlet-name>
+    <servlet-class>com.offcn.qianduan.downServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddServlet_f</servlet-name>
+    <servlet-class>com.offcn.qianduan.AddServlet_f</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Update_mg</servlet-name>
+    <servlet-class>com.offcn.qianduan.Update_mg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IniMaiData</servlet-name>
+    <servlet-class>com.offcn.qianduan.IniMaiData</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IniMaiData1</servlet-name>
+    <servlet-class>com.offcn.qianduan.IniMaiData1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>list_front</servlet-name>
+    <servlet-class>com.offcn.qianduan.list_front</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_S1</servlet-name>
+    <servlet-class>com.offcn.qianduan.Select_S1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>phonenum_check</servlet-name>
+    <servlet-class>com.offcn.yanzhengma.phonenum_check</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zhifu_xq</servlet-name>
+    <servlet-class>com.offcn.yanzhengma.zhifu_xq</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayServlet</servlet-name>
+    <servlet-class>com.offcn.qianduan.PayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendCode</servlet-name>
+    <servlet-class>SendCode</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>selectbase</servlet-name>
+    <url-pattern>/servlet/selectbase</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteda</servlet-name>
+    <url-pattern>/servlet/deleteda</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>mohuselect</servlet-name>
+    <url-pattern>/servlet/mohuselect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatems</servlet-name>
+    <url-pattern>/servlet/updatems</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkpwd</servlet-name>
+    <url-pattern>/servlet/checkpwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatepwd</servlet-name>
+    <url-pattern>/servlet/updatepwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userselect</servlet-name>
+    <url-pattern>/servlet/userselect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ljfanzhuan</servlet-name>
+    <url-pattern>/servlet/ljfanzhuan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>usermohu</servlet-name>
+    <url-pattern>/servlet/usermohu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shengfenrenshu</servlet-name>
+    <url-pattern>/servlet/shengfenrenshu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addkeyword</servlet-name>
+    <url-pattern>/servlet/addkeyword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletekeyword</servlet-name>
+    <url-pattern>/servlet/deletekeyword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>qdServlet</servlet-name>
+    <url-pattern>/servlet/qdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Xqservlet</servlet-name>
+    <url-pattern>/servlet/Xqservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginserverlet_q</servlet-name>
+    <url-pattern>/servlet/loginserverlet_q</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>exitseleverlet</servlet-name>
+    <url-pattern>/servlet/exitseleverlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>downServlet</servlet-name>
+    <url-pattern>/servlet/downServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddServlet_f</servlet-name>
+    <url-pattern>/servlet/AddServlet_f</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Update_mg</servlet-name>
+    <url-pattern>/servlet/Update_mg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IniMaiData</servlet-name>
+    <url-pattern>/servlet/IniMaiData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IniMaiData1</servlet-name>
+    <url-pattern>/servlet/IniMaiData1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>list_front</servlet-name>
+    <url-pattern>/servlet/list_front</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_S1</servlet-name>
+    <url-pattern>/servlet/Select_S1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>phonenum_check</servlet-name>
+    <url-pattern>/servlet/phonenum_check</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zhifu_xq</servlet-name>
+    <url-pattern>/servlet/zhifu_xq</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayServlet</servlet-name>
+    <url-pattern>/servlet/PayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendCode</servlet-name>
+    <url-pattern>/servlet/SendCode</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
